@@ -1,0 +1,93 @@
+body{
+    background-color: #181816;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    background-color: #33312e;
+}
+
+#container{
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+#img{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: #f8a305;
+    border-radius: 10px;
+    right: auto;
+}
+img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+
+}
+
+h3{
+    background-color: #f8a305;
+    border: none;
+    color: white;
+    padding: 40px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 40px 1px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#btn{
+    background-color: #cbdf18;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+}
+#btn.clicked{
+    background-color: blue;
+}
+
+#submit-order{
+    background-color: green;
+}
+
+#total-price{
+    color: #4954f0;
+}
+#btn:hover{
+    background-color: blue;
+}
+#submit-order:hover{
+    background-color: yellow;
+}
+
+img {
+    animation: slideImages 3s infinite; /* Adjust animation duration as needed */
+    opacity: 0;
+    transition: opacity 1s ease; /* Fade transition between images */
+}
+
+ @keyframes slideImages { /*the apperance and how it fades */
+    0%, 93% {
+        opacity: 100;
+    }
+    66%, 100% {
+        opacity: 0;
+    }
+}
+
+
