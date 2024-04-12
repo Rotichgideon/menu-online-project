@@ -1,0 +1,32 @@
+{
+    "menu": {
+      "Appetizers": [
+        {"name": "Fruit salad", "price": 50},
+        {"name": "Cocktails", "price": 200},
+        {"name": "Sandwich", "price": 100},
+        {"name": "French Fried", "price": 50}
+      ],
+      "MainMeal": [
+        {"name": "African ugali", "price": 80},
+        {"name": "Roasted chicken", "price": 300},
+        {"name": "Brown beef stew", "price": 200},
+        {"name": "Saute spinach", "price": 100},
+        {"name": "Fried cales", "price": 80},
+        {"name": "Grilled beef", "price": 250},
+        {"name": "Pilau", "price": 150},
+        {"name": "Mashed potatoes", "price": 100},
+        {"name": "Chapati", "price": 50}
+      ],
+      "Dessert": [
+        {"name": "Chocolate cake", "price": 150},
+        {"name": "Bananas pudding", "price": 70}
+      ],
+      "Beverages": [
+        {"name": "Milk shake", "price": 200},
+        {"name": "Iced tea", "price": 100},
+        {"name": "Orange juice", "price": 80},
+        {"name": "Lemon tea", "price": 100},
+        {"name": "Coffee", "price": 200}
+      ]
+    }
+  }
